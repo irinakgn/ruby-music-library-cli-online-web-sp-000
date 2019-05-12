@@ -1,7 +1,7 @@
 class Artist
 
   attr_accessor :name, :songs
-  extend Concerns::Findable
+  include Concerns::Findable
 
   @@all = []
 
