@@ -1,4 +1,4 @@
-require './concerns/finders.rb'
+require './concerns/modules.rb'
 class Artist
 
   attr_accessor :name, :songs
